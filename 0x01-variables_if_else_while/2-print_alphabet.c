@@ -6,9 +6,11 @@
  */
 int main(void)
 {
-char alpha;
-for (alpha = 'a'; alpha <= 'z'; alpha++)
+char al;
+for (al = 'a'; al <= 'z'; al++)
 {
-putchar(alpha);
+putchar(al);
 }
+putchar('\n');
+return (0);
 }
