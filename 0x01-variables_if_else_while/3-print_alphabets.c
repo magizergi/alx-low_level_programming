@@ -7,14 +7,14 @@
 int main(void)
 {
 char al;
+char tl;
 for (al = 'a'; al <= 'z'; al++)
 {
 putchar(al);
 }
-char capital;
-for (capital = 'A'; capital <= 'Z'; capital++)
+for (tl = 'A'; tl <= 'Z'; tl++)
 {
-putchar(capital);
+putchar(tl);
 }
 putchar('\n');
 return (0);
