@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-int al=0;
-while( al < 10)
+int al = 0;
+while (al < 10)
 {
-putchar(al);
+putchar(al + '0');
 al++;
 }
 putchar('\n');
