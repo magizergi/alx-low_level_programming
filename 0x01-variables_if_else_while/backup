@@ -6,12 +6,11 @@
  */
 int main(void)
 {
-int al=0;
-while( al < 10)
+int al;
+for (al = 0; al <= 9; al++)
 {
-putchar(al);
-al++;
+putchar("%d", al);
 }
-putchar('\n');
+putchar("\n");
 return (0);
 }
