@@ -10,10 +10,10 @@ int al;
 for (al = 0; al <= 9; al++)
 {
 putchar('0' + al);
-putchar(' ');
+putchar(',');
 if (al != 9)
 {
-putchar(',');
+putchar(' ');
 }
 }
 putchar('\n');
