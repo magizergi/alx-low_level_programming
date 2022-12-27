@@ -13,7 +13,7 @@ for (i = 0; i <= 9; i++)
 for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
 _putchar(alpha);
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
