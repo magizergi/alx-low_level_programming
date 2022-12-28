@@ -1,25 +1,23 @@
 #include "main.h"
 /**
- *print_sign - Entry point
+ *_abs - Entry point
  *@n:char that is checked if lower
  *Description: 'the program's description'
  *Return: Always 0 (Success)
  */
-int print_sign(int n)
+int _abs(int n)
 {
 if (n > 0)
 {
-_putchar('+');
-return (1);
+return (n);
 }
 else if (n == 0)
 {
-_putchar('0');
 return (0);
 }
 else
 {
-_putchar('-');
-return (-1);
+n = n * -1;
+return (n);
 }
 }
