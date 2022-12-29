@@ -11,11 +11,7 @@ int add(int x, int y)
 int m;
 m = x + y;
 if (m > 9)
-{
-_putchar((m / 10) + '0');
-_putchar((m % 10) + '0');
-}
+return ((m / 10) + (m % 10));
 else
-_putchar(m + '0');
-_putchar('\n');
+return (m + '0');
 }
