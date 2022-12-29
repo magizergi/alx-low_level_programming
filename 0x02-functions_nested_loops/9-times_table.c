@@ -25,8 +25,11 @@ _putchar(' ');
 }
 _putchar(m + '0');
 }
+if (x != 9)
+{
 _putchar(',');
 _putchar(' ');
+}
 }
 _putchar('\n');
 }
