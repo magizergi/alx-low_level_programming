@@ -21,7 +21,7 @@ else
 {
 if (y != 0)
 {
-putchar(' ');
+_putchar(' ');
 }
 _putchar(m + '0');
 }
