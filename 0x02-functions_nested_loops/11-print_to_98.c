@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_to_98 - Entry point
- *@n - start point
+ *@n:start point
  *Description: 'the program's description'
  *Return: Always 0 (Success)
  */
