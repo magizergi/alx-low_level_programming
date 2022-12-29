@@ -13,6 +13,8 @@ for (y = 0; y <= 9; y++)
 {
 m = x * y;
 _putchar(m + '0');
+_puthchar(',');
+_putchar(' ');
 }
 _putchar('\n');
 }
