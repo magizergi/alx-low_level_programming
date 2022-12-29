@@ -19,7 +19,10 @@ _putchar((m % 10) + '0');
 }
 else
 {
-_putchar(' ');
+if (y != 0)
+{
+putchar(' ');
+}
 _putchar(m + '0');
 }
 _putchar(',');
