@@ -10,8 +10,5 @@ int add(int x, int y)
 {
 int m;
 m = x + y;
-if (m > 9)
-return ((m / 10) + (m % 10));
-else
-return (m + '0');
+return (m);
 }
