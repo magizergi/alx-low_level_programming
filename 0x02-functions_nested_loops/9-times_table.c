@@ -20,6 +20,7 @@ _putchar((m % 10) + '0');
 else
 {
 _putchar(m + '0');
+_putchar(' ');
 }
 _putchar(',');
 _putchar(' ');
