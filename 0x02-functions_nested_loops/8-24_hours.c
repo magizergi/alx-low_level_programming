@@ -1,21 +1,17 @@
 #include "main.h"
 /**
- *jack_bauer - Entry point
+ *times_table - Entry point
  *Description: 'the program's description'
  *Return: Always 0 (Success)
  */
-void jack_bauer(void)
+void times_table(void)
 {
-int hour, minute;
-for  (hour = 0; hour <= 23; hour++)
+int x, y;
+for (x = 0; x <= 9; x++)
 {
-for (minute = 0; minute <= 59; minute++)
+for (y = 0; y <= 9; y++)
 {
-_putchar((hour / 10) + '0');
-_putchar((hour % 10) + '0');
-_putchar(':');
-_putchar((minute / 10) + '0');
-_putchar((minute % 10) + '0');
+_putchar((x * y) + '0');
 _putchar('\n');
 }
 }
