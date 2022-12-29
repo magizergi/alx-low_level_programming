@@ -12,10 +12,18 @@ for (x = 0; x <= 9; x++)
 for (y = 0; y <= 9; y++)
 {
 m = x * y;
+if (m > 9)
+{
+_putchar((m / 10) + '0');
+_putchar((m % 10) + '0');
+}
+else
+{
 _putchar(m + '0');
+}
 _putchar(',');
 _putchar(' ');
-}
 _putchar('\n');
+}
 }
 }
