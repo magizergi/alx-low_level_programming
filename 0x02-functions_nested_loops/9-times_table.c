@@ -23,7 +23,7 @@ _putchar(m + '0');
 }
 _putchar(',');
 _putchar(' ');
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
