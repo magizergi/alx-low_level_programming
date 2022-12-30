@@ -11,20 +11,22 @@ void print_to_98(int n)
 int x;
 if (n > 98)
 {
-for (x = 98; x <= n; x++)
+for (x = n; x <= 98; x--)
 {
 char a = ',';
 printf("%d", x);
 printf("%c", a);
+printf(" ");
 }
 }
 else
-if (n < 98 && n > 0)
+if (n < 98)
 {
-for (x = n; x <= 98; x--)
+for (x = n; x <= 98; x++)
 {
 printf("%d", x);
 printf("%c", ',');
+printf(" ");
 }
 }
 _putchar('\n');
