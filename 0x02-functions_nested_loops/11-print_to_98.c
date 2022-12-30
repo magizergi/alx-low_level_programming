@@ -14,8 +14,6 @@ if (n > 98)
 for (x = 98; x <= n; x++)
 {
 printf("%d", x);
-printf(',');
-printf(' ');
 }
 }
 else
