@@ -35,9 +35,12 @@ if (x == 98)
 printf("%d", x);
 break;
 }
+else
+{
 printf("%d", x);
 printf("%c", ',');
 printf(" ");
+}
 }
 }
 printf("\n");
