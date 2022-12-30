@@ -13,11 +13,10 @@ if (n > 98)
 {
 for (x = n; x <= 98; x--)
 {
-char a = ',';
 printf("%d", x);
 if (n != 98)
 {
-printf("%c", a);
+printf("%c", ',');
 printf(" ");
 }
 }
