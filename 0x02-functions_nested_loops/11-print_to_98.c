@@ -37,5 +37,5 @@ printf("%c", ',');
 printf(" ");
 }
 }
-_putchar('\n');
+printf('\n');
 }
