@@ -16,7 +16,6 @@ for (x = n; x >= 98; x--)
 if (n == 98)
 {
 printf("%d", x);
-break;
 }
 else
 {
@@ -33,7 +32,6 @@ for (x = n; x <= 98; x++)
 if (x == 98)
 {
 printf("%d", x);
-printf("\n");
 break;
 }
 else
