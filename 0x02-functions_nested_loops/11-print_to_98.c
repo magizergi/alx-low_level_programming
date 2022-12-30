@@ -21,7 +21,8 @@ if (n < 98 && n > 0)
 {
 for (x = n; x >= 98; x--)
 {
-printf("%d, ", x);
+printf("%d", x);
+printf("%c", ',');
 }
 }
 _putchar('\n');
