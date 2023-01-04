@@ -17,7 +17,7 @@ if (*s == accept[i])
 return (s);
 }
 }
-s++
+s++;
 }
-return('\0');
+return ('\0');
 }
